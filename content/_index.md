@@ -24,7 +24,8 @@ sections:
         color: black
         image:
           # Add your image background to `assets/media/`.
-          filename: portrait.jpg
+          filename: HANDELSportraits_sept22_fotoJulianaWG_0015.jpg
+          # filename: stacked-peaks.svg
           filters:
             brightness: 1.0
           size: cover
