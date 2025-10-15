@@ -24,7 +24,7 @@ date_format: Jan 2006
 experience:
   - title: PhD Finance
     company: Stockholm School of Economics
-    company_url: 'https://www.hhs.se/en/Research/Departments/DF/'
+    company_url: https://www.hhs.se/en/Research/Departments/DF/
     company_logo: org-x
     location: California
     date_start: '2021-01-01'
