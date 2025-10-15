@@ -74,6 +74,6 @@ design:
 #email: ""
 ---
 
-<!-- I am a Ph.D. candidate in the Department of Finance at Stockholm School of Economics, where my research focuses on entrepreneurship and finance. I study how venture capital activities shape innovation and market dynamics, combining theoretical modeling with empirical analysis. In particular, my work examines how the structure of venture capital networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets. -->
+I am a Ph.D. candidate in the Department of Finance at Stockholm School of Economics, where my research focuses on entrepreneurship and finance. I study how venture capital activities shape innovation and market dynamics, combining theoretical modeling with empirical analysis. In particular, my work examines how the structure of venture capital networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
