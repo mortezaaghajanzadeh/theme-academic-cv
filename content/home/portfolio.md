@@ -10,7 +10,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ''
+title: 'Research'
 subtitle: ''
 
 content:
@@ -28,12 +28,12 @@ content:
   filter_button:
     - name: All
       tag: '*'
-    - name: Machine Learning
-      tag: ML
-    - name: Computer Vision
-      tag: CV
-    - name: NLP
-      tag: NLP
+    - name: Entrepreneurship
+      tag: E
+    - name: Network Structure
+      tag: NS
+    - name: Climate Economics
+      tag: CE
 
 design:
   columns: '1'
