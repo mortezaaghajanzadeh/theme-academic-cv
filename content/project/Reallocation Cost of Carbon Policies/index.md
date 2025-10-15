@@ -6,4 +6,14 @@ tags:
   - Climate
 date: 2024-09-29
 # external_link: http://github.com
+
+
+design:
+  columns: '1'
+  image: true
+  image_rounded: true
+  image_shadow: true
+  image_border: true
+  css_class: justify-text
+
 ---
