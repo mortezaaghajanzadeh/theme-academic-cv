@@ -25,8 +25,8 @@ experience:
   - title: PhD Finance
     company: Stockholm School of Economics
     company_url: 'https://www.hhs.se/en/Research/Departments/DF/'
-    company_logo: HHS-vector-logo
-    location: STockholm
+    company_logo: org-x
+    location: California
     date_start: '2021-01-01'
     date_end: '2022-01-01'
     description: |2-
