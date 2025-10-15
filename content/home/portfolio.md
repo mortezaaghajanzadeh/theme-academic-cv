@@ -37,6 +37,7 @@ content:
 
 design:
   columns: '1'
+  rows: 1
   view: masonry
   flip_alt_rows: true
   background: {}
