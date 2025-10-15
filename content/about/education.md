@@ -32,10 +32,10 @@ experience:
     description: ''
 
     
-  - title: PhD Finance
-    company: Stockholm School of Economics
-    company_url: https://www.hhs.se/en/Research/Departments/DF/
-    company_logo: HHS-vector-logo
+  - title: BEng Civil Engineering
+    company: University of Tehran
+    company_url: https://eng.ut.ac.ir/en
+    company_logo: UT-logo
     location: Stockholm
     date_start: '2022-08-21'
     date_end: ''
