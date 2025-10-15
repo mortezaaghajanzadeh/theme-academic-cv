@@ -54,7 +54,9 @@ social:
   - icon: google-scholar
     icon_pack: fab
     url: https://scholar.google.com/
-    
+design:
+  columns: "1"
+  css_class: "justify-text"   
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
