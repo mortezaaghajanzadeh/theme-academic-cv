@@ -4,5 +4,5 @@ summary: This paper examines the effects of carbon policies on capital reallocat
 tags:
   - CE
 date: 2024-09-29
-external_link: http://github.com
+# external_link: http://github.com
 ---
