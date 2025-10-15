@@ -23,7 +23,6 @@ show_social: true
 #  css_class: fullscreen
 ---
 
-
-
+I am a Ph.D. candidate in the Department of Finance at Stockholm School of Economics, where my research focuses on entrepreneurship and finance. I study how venture capital activities shape innovation and market dynamics, combining theoretical modeling with empirical analysis. In particular, my work examines how the structure of venture capital networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
 
 Check out my [resumé](/about/) and research below

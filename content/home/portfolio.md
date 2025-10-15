@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: 'Research'
-subtitle: ''
+title: ''
+subtitle: 'Research'
 
 content:
   # Page type to display. E.g. project.
