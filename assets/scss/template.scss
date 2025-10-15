@@ -140,3 +140,9 @@ ul.network-icon .big-icon {
 .projects-container {
   gap: 2rem;
 }
+.site-footer {
+  display: none;
+}
+.dark .site-footer {
+  display: none;
+}
