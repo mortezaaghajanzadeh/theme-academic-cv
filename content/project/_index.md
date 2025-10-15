@@ -8,4 +8,5 @@ cascade:
   build:
     render: never
     list: always
+title: Research
 ---
