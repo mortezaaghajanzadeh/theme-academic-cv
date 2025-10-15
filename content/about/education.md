@@ -9,6 +9,7 @@ headless: true
 # Order that this section appears on the page.
 weight: 30
 
+
 title: Education
 subtitle:
 
@@ -38,6 +39,7 @@ experience:
     location: Tehran
     date_start: '2019-09-20'
     date_end: '2022-02-28'
+    description: ''
 
     
   - title: BEng Civil Engineering
