@@ -29,11 +29,11 @@ content:
     - name: All
       tag: '*'
     - name: Entrepreneurship
-      tag: E
+      tag: Entrepreneurship
     - name: Network Structure
-      tag: NS
+      tag: Network
     - name: Climate Economics
-      tag: CE
+      tag: Climate
 
 design:
   columns: '1'

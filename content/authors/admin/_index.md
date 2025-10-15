@@ -18,7 +18,7 @@ organizations:
     url: https://www.hhs.se/en/Research/Departments/DF/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: I am a Ph.D. candidate in Finance at Stockholm School of Economics, and my research examines how venture capital networks influence innovation, market entry, and competitive dynamics through both theoretical modeling and empirical analysis.
 
 interests:
   - Venture Capital, Entrepreneurship, and Innovation
