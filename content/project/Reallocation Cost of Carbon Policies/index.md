@@ -1,25 +1,39 @@
 ---
-title: Reallocation Cost of Carbon Policies
-
-summary: This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy, using a model that captures the interactions between green and brown capital, productivity, and emissions. The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015. Three key findings emerge from the analysis. First, the elasticity of substitution between green and brown capital is lower in high-emission industries, although the relative importance of green capital remains similar across both brown and green industries. Additionally, a positive correlation is found between productivity and emission intensity specifically in the brown industries. Second, the primary driver of emission reductions is the emission tax, which accounts for a 54% reduction, while improvements in emission technology contribute a further 50% reduction. However, productivity growth increases emissions by 64% through expanded production, leading to a net emission reduction of 40% over the study period. Third, the emission tax proves to be the most effective policy for reducing emissions. Equivalent reductions through green capital subsidies would require a 94% discount on the interest rate, leading to a 250% reduction in overall economic output. The model further predicts that the current tax rate will achieve a 45% reduction in emissions by 2040, falling short of the 75% target. To meet this goal, a tax rate 270% higher than the current level would be necessary.
-tags:
-  - Climate
+title: "Reallocation Cost of Carbon Policies"
+authors:
+  - "Morteza Aghajanzadeh"
 date: 2024-09-29
-
+tags: ["Climate", "Reallocation", "Carbon Policy"]
 image:
   filename: featured.png
-  caption: "Trends in capital reallocation and emissions"
-  placement: 2  # 1=left, 2=right, 3=top, 4=bottom
-  focal_point: Center
-
-authors:
-  - Morteza Aghajanzadeh
+  caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
+  placement: 4
+design:
+  columns: "1"
+  css_class: "justify-text"
+summary: >
+  This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy,
+  using a model that captures the interactions between green and brown capital, productivity, and emissions.
+  The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015.
 awards:
   - "Best Paper Award, Nordic Conference on Environmental Economics 2024"
 presentations:
   - "Stockholm School of Economics Research Seminar, 2024"
   - "EEA-ESEM Annual Meeting, 2024"
+---
+## Abstract
+This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy.
+It uses a model that captures the interactions between green and brown capital, productivity, and emissions.
 
+## Key Findings
+1. The elasticity of substitution between green and brown capital is lower in high-emission industries.
+2. The emission tax accounts for a 54% reduction, and technology improvements add another 50%.
+3. Productivity growth raises emissions by 64%, leading to a net 40% reduction overall.
+4. To meet a 75% reduction target by 2040, the tax rate must increase by 270% above current levels.
+
+## Policy Implications
+The emission tax is the most effective policy instrument. Achieving equivalent reductions through green capital subsidies
+would require unrealistic interest rate discounts and would reduce total output significantly.
 
 
 # external_link: http://github.com
