@@ -27,14 +27,14 @@ experience:
     company_url: 'https://teias.institute/'
     company_logo: TEIAS-LOGO-DARK
     location: Tehran
-    date_start: '2021-01-01'
-    date_end: ''
-    description: |2-
-        Responsibilities include:
+    date_start: '2020'
+    date_end: '2022'
+    # description: |2-
+    #     Responsibilities include:
         
-        * Analysing
-        * Modelling
-        * Deploying
+    #     * Analysing
+    #     * Modelling
+    #     * Deploying
 
 design:
   columns: '1'
