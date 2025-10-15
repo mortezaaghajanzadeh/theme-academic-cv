@@ -32,7 +32,7 @@ experience:
     date_end: ''
     description: ''
 
-  -title: Msc Economics
+  - title: Msc Economics
     company: Tehran Institute for Advanced Studies (TEIAS)
     company_url: https://teias.institute/
     company_logo: TEIAS-LOGO-DARK
