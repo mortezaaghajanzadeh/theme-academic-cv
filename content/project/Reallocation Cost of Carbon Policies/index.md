@@ -5,15 +5,25 @@ summary: This paper examines the effects of carbon policies on capital reallocat
 tags:
   - Climate
 date: 2024-09-29
+
+image:
+  filename: featured.png
+  caption: "Trends in capital reallocation and emissions"
+  placement: 2  # 1=left, 2=right, 3=top, 4=bottom
+  focal_point: Center
+
+authors:
+  - Morteza Aghajanzadeh
+awards:
+  - "Best Paper Award, Nordic Conference on Environmental Economics 2024"
+presentations:
+  - "Stockholm School of Economics Research Seminar, 2024"
+  - "EEA-ESEM Annual Meeting, 2024"
+
+
+
 # external_link: http://github.com
 
 
-design:
-  columns: '1'
-  image: true
-  image_rounded: true
-  image_shadow: true
-  image_border: true
-  css_class: justify-text
 
 ---
