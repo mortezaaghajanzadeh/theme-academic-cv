@@ -38,17 +38,9 @@ experience:
     company_logo: UT-logo
     location: Tehran
     date_start: '2014-09-30'
-    date_end: ''
+    date_end: '2019-02-28'
     description: ''
 
-  # - title: BEng Civil Engineering
-  #   company: University of Tehran
-  #   company_url: ''
-  #   # company_logo: UT-logo
-  #   location: Tehran
-  #   date_start: '2014-09-31'
-  #   date_end: '2019-02-31'
-  #   description: My dissertation was on X
 
 design:
   columns: '1'
