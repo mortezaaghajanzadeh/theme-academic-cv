@@ -25,6 +25,12 @@ interests:
   - Network Structure and Market Competition
   - Strategic Investment and Entry Dynamics
 
+# Location
+location: Stockholm, Sweden
+# Email
+email: morteza.aghajanzadeh@hhs.se
+
+
 education:
  courses:
  - course: PhD in Artificial Intelligence
