@@ -36,7 +36,7 @@ The emission tax is the most effective policy instrument. Achieving equivalent r
 would require unrealistic interest rate discounts and would reduce total output significantly.
 
 
-# external_link: http://github.com
+<!-- # external_link: http://github.com -->
 
 
 
