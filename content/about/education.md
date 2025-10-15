@@ -29,6 +29,7 @@ experience:
     location: Stockholm
     date_start: '2022-08-21'
     date_end: ''
+    description: ''
 
   - title: BEng Civil Engineering
     company: University of Tehran
