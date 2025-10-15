@@ -15,9 +15,9 @@ summary: >
   This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy,
   using a model that captures the interactions between green and brown capital, productivity, and emissions.
   The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015.
-awards:
+awards: >
   - "Best Paper Award, Nordic Conference on Environmental Economics 2024"
-presentations:
+presentations: >
   - "Stockholm School of Economics Research Seminar, 2024"
   - "EEA-ESEM Annual Meeting, 2024"
 ---
