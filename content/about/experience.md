@@ -27,8 +27,8 @@ experience:
     company_url: 'https://teias.institute/'
     company_logo: TEIAS-LOGO-DARK
     location: Tehran
-    date_start: '2020'
-    date_end: '2022'
+    date_start: '2020-05-01'
+    date_end: '2022-07-31'
     # description: |2-
     #     Responsibilities include:
         
