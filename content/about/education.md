@@ -34,13 +34,13 @@ experience:
         * Basketball team
         * DJ club
 
-  - title: BEng Civil Engineering
-    company: University of Tehran
-    company_url: ''
-    company_logo: UT-logo
-    location: Tehran
-    date_start: '2014-09-31'
-    date_end: '2019-02-31'
+  # - title: BEng Civil Engineering
+  #   company: University of Tehran
+  #   company_url: ''
+  #   company_logo: UT-logo
+  #   location: Tehran
+  #   date_start: '2014-09-31'
+  #   date_end: '2019-02-31'
     # description: My dissertation was on X
 
 design:
