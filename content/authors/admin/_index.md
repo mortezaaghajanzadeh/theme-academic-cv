@@ -45,11 +45,14 @@ social:
   - icon: envelope
     icon_pack: fas
     link: 'mailto:morteza.aghajanzadeh@hhs.se' 
-  - icon: brands/github
-    url: https://github.com/mortezaaghajanzadeh
-  - icon: brands/linkedin
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/mortezaaghajanzadeh
+  - icon: linkedin
+    icon_pack: fab
     url: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh/
-  - icon: academicons/google-scholar
+  - icon: google-scholar
+    icon_pack: fab
     url: https://scholar.google.com/
 # Uncomment below for Github link
 #- icon: github
