@@ -58,9 +58,9 @@ social:
 
 # Link to a PDF of your resume/CV from the About widget.
 # To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-- icon: cv
-  icon_pack: ai
-  link: uploads/Aghajanzadeh-CV.pdf
+# - icon: cv
+#   icon_pack: ai
+#   link: files/Aghajanzadeh-CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
@@ -68,4 +68,4 @@ social:
 
 I am a Ph.D. candidate in the Department of Finance at Stockholm School of Economics, where my research focuses on entrepreneurship and finance. I study how venture capital activities shape innovation and market dynamics, combining theoretical modeling with empirical analysis. In particular, my work examines how the structure of venture capital networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/resume.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
