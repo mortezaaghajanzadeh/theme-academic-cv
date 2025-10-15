@@ -31,6 +31,14 @@ experience:
     date_end: ''
     description: ''
 
+  -title: Msc Economics
+    company: Tehran Institute for Advanced Studies (TEIAS)
+    company_url: 'https://teias.institute/'
+    company_logo: TEIAS-LOGO-DARK
+    location: Tehran
+    date_start: '2019-09-20'
+    date_end: '2022-02-28'
+
     
   - title: BEng Civil Engineering
     company: University of Tehran
