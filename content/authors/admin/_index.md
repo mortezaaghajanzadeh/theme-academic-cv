@@ -28,7 +28,7 @@ bio: My research interests include distributed robotics, mobile computing and pr
 education:
   - area: PhD Finance
     institution: Stockholm School of Economics
-    year: 2022
+    date_start: 2022
   - area: Msc Economics
     institution: Tehran Instituted for Advanced Studies
     date_start: 2019
@@ -56,13 +56,9 @@ social:
   - icon: google-scholar
     icon_pack: fab
     url: https://scholar.google.com/
-    
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-  - icon: cv
-    icon_pack: ai
-    link: uploads/Aghajanzadeh-CV.pdf
+  # - icon: cv
+  #   icon_pack: ai
+  #   link: uploads/Aghajanzadeh-CV.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 #email: ""
