@@ -56,7 +56,7 @@ social:
     link: https://github.com/mortezaaghajanzadeh
   - icon: linkedin
     icon_pack: fab
-    url: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh/
+    url: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh
   - icon: google-scholar
     icon_pack: fab
     url: https://scholar.google.com/
