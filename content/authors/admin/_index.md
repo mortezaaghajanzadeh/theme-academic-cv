@@ -31,17 +31,17 @@ location: Stockholm, Sweden
 email: morteza.aghajanzadeh@hhs.se
 
 
-education:
- courses:
- - course: PhD in Artificial Intelligence
-   institution: Stockholm School of Economics
-   year: 2022-Now
- - course: Msc in Economics
-   institution: Tehran Instituted for Advanced Studies
-   year: 2019-2021
- - course:  BSc in Civil Engineering
-   institution: University of Tehran
-   year: 2014-2018
+# education:
+#  courses:
+#  - course: PhD in Artificial Intelligence
+#    institution: Stockholm School of Economics
+#    year: 2022-Now
+#  - course: Msc in Economics
+#    institution: Tehran Instituted for Advanced Studies
+#    year: 2019-2021
+#  - course:  BSc in Civil Engineering
+#    institution: University of Tehran
+#    year: 2014-2018
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -59,7 +59,7 @@ social:
     url: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh
   - icon: google-scholar
     icon_pack: fab
-    url: https://scholar.google.com/
+    url: https://scholar.google.com
 design:
   columns: "1"
   css_class: "justify-text"   
