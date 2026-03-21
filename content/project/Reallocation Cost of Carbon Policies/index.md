@@ -3,6 +3,8 @@ title: "Reallocation Cost of Carbon Policies"
 authors:
   - "Morteza Aghajanzadeh"
 date: 2024-09-29
+weights:
+  - 2
 tags: ["Climate", "Reallocation", "Carbon Policy"]
 image:
   filename: featured.png
