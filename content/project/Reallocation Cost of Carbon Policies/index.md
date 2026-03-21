@@ -6,6 +6,7 @@ date: 2024-09-29
 weights:
   - 2
 tags: ["Climate", "Reallocation", "Carbon Policy"]
+categories: ["Research"]
 image:
   filename: featured.png
   caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
