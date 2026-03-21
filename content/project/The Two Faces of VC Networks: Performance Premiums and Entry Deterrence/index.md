@@ -5,8 +5,6 @@ authors:
 date: 2024-09-29
 tags: ["Venture Capital", "Network", "Entrepreneurship"]
 categories: ["Research"]
-weights:
-  - "Research": 10
 image:
   filename: fig.pdf
   caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
