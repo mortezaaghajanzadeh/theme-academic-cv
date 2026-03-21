@@ -1,6 +1,6 @@
 /* ============================================================
-   Morteza Aghajanzadeh — Academic Website Custom CSS
-   Hugo Blox Builder | Updated 2026
+   Morteza Aghajanzadeh — Academic Website Custom CSS v2
+   Hugo Blox Builder | Selectors verified against live DOM
    ============================================================ */
 
 /* ── GOOGLE FONTS ──────────────────────────────────────────── */
@@ -8,83 +8,47 @@
 
 /* ── DESIGN TOKENS ──────────────────────────────────────────── */
 :root {
-  --navy:         #1a2744;
-  --navy-light:   #2e4270;
-  --crimson:      #c0392b;
-  --ink:          #2c3345;
-  --muted:        #6b7280;
-  --rule:         #dde1e9;
-  --surface:      #f8f7f4;
-  --white:        #ffffff;
-  --card-radius:  4px;
-  --serif:        'EB Garamond', Georgia, 'Times New Roman', serif;
-  --sans:         'Outfit', system-ui, -apple-system, sans-serif;
+  --navy:    #1a2744;
+  --crimson: #c0392b;
+  --ink:     #2c3345;
+  --muted:   #6b7280;
+  --rule:    #dde1e9;
+  --surface: #f8f7f4;
+  --white:   #ffffff;
+  --serif:   'EB Garamond', Georgia, 'Times New Roman', serif;
+  --sans:    'Outfit', system-ui, -apple-system, sans-serif;
 }
 
 /* ── BASE ───────────────────────────────────────────────────── */
 body {
   font-family: var(--sans);
   background-color: var(--surface);
-  color: var(--ink);
-  font-size: 16px;
-  line-height: 1.7;
-}
-
-/* ── ARTICLE CONTAINER ──────────────────────────────────────── */
-.article-container {
-  background-color: var(--white);
-  border-radius: 6px;
-  border: 0.5px solid var(--rule);
-}
-
-.dark .article-container {
-  background-color: rgb(28, 36, 52);
-  border-color: rgba(255, 255, 255, 0.08);
 }
 
 /* ── NAVBAR ─────────────────────────────────────────────────── */
 .navbar {
   box-shadow: none !important;
   border-bottom: 1px solid var(--rule);
-  background: var(--white) !important;
 }
 
 .dark .navbar {
   border-bottom-color: rgba(255, 255, 255, 0.08);
-  background: rgb(20, 26, 40) !important;
 }
 
-/* Navbar name (brand) in serif */
-.navbar-brand {
-  font-family: var(--serif);
-  font-size: 1.1rem;
-  color: var(--navy) !important;
-  letter-spacing: 0.01em;
-}
-
-/* Navbar links */
-.nav-link {
+.navbar-light .nav-link {
   font-size: 0.82rem;
   letter-spacing: 0.05em;
   text-transform: uppercase;
   color: var(--muted) !important;
   font-weight: 400;
-  transition: color 0.15s ease;
 }
 
-.nav-link:hover {
+.navbar-light .nav-link:hover,
+.navbar-light .nav-link.active {
   color: var(--navy) !important;
 }
 
-.dark .nav-link {
-  color: rgba(180, 195, 220, 0.75) !important;
-}
-
-.dark .nav-link:hover {
-  color: rgba(200, 215, 240, 1) !important;
-}
-
-/* ── PAGE FOOTER ────────────────────────────────────────────── */
+/* ── FOOTER ─────────────────────────────────────────────────── */
 .page-footer {
   background-color: var(--surface);
   border-top: 1px solid var(--rule);
@@ -92,13 +56,9 @@ body {
 
 .dark .page-footer {
   background-color: rgb(18, 24, 38);
-  border-top-color: rgba(255, 255, 255, 0.08);
 }
 
-/* Hide Wowchemy/Hugo Blox branding footer */
-.site-footer,
-.dark .site-footer,
-footer.site-footer {
+.site-footer {
   display: none !important;
 }
 
@@ -111,19 +71,10 @@ footer.site-footer {
   padding: 0;
 }
 
-/* Constrain section width for readability */
 .home-section > .content {
   width: 52em;
   max-width: calc(100% - 4em);
   margin: 0 auto;
-}
-
-.home-section > .content > :last-child {
-  margin-bottom: 0;
-}
-
-.home-section header {
-  margin-bottom: 1.25em;
 }
 
 @media (min-width: 1200px) {
@@ -133,64 +84,20 @@ footer.site-footer {
   .home-section .container { max-width: 900px; }
 }
 
-/* ── SECTION HEADINGS ───────────────────────────────────────── */
-/* Use serif for academic section titles */
-.section-heading h1,
-.section-heading h2,
-.home-section > .container > .row > div > h1,
-.home-section > .container > .row > div > h2 {
-  font-family: var(--serif);
-  font-size: 1.25rem;
-  font-weight: 500;
-  color: var(--navy);
-  letter-spacing: 0.01em;
-  padding-bottom: 0.5rem;
-  border-bottom: 1.5px solid var(--navy);
-  margin-bottom: 1.25rem;
+/* ── AVATAR — fix circle override ───────────────────────────── */
+/* .avatar-circle forces 50% — we override it with higher specificity */
+.wg-about-avatar .avatar.avatar-circle,
+#profile .avatar.avatar-circle,
+.avatar.avatar-circle {
+  border-radius: 4px !important;
+  border: 1px solid var(--rule);
 }
 
-.dark .section-heading h1,
-.dark .section-heading h2 {
-  color: #a8bde4;
-  border-bottom-color: #a8bde4;
-}
-
-/* ── PROFILE / ABOUT SECTION ────────────────────────────────── */
-#profile .portrait-title h2 {
-  font-family: var(--serif);
-  font-size: 1.85rem;
-  font-weight: 500;
-  color: var(--navy);
-  line-height: 1.2;
-  margin-bottom: 0.25rem;
-}
-
-#profile .portrait-title h3 {
-  font-size: 0.85rem;
-  font-weight: 400;
-  color: var(--muted);
-  text-transform: uppercase;
-  letter-spacing: 0.04em;
-}
-
-.dark .portrait-title h2 {
-  color: #c8d8f0;
-  font-weight: 500;
-}
-
-.dark .portrait-title h3 {
-  color: rgba(200, 215, 240, 0.65);
-  font-weight: 400;
-}
-
-/* Avatar */
 .avatar {
   width: auto;
   height: auto;
   max-width: 200px;
   max-height: 200px;
-  border-radius: 3px;   /* flat corners — more formal than circles */
-  border: 1px solid var(--rule);
 }
 
 .wg-about .avatar {
@@ -200,16 +107,33 @@ footer.site-footer {
   max-height: 180px;
 }
 
-/* Social icons */
-#profile .network-icon {
-  margin-top: 0.75rem;
+/* ── PROFILE TEXT ───────────────────────────────────────────── */
+.portrait-title h2 {
+  font-family: var(--serif);
+  font-size: 1.9rem;
+  font-weight: 500;
+  color: var(--navy);
+  line-height: 1.2;
 }
 
-ul.network-icon .big-icon {
-  font-size: 1.35rem;
+.portrait-title h3 {
+  font-size: 0.82rem;
+  font-weight: 400;
+  color: var(--muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
 }
 
-/* Smaller name/role on About page */
+.dark .portrait-title h2 {
+  color: #c8d8f0;
+  font-weight: 500;
+}
+
+.dark .portrait-title h3 {
+  color: rgba(200, 215, 240, 0.65);
+}
+
+/* Smaller on About page widget */
 .wg-about .portrait-title h2 {
   font-size: 0.95rem;
 }
@@ -218,69 +142,59 @@ ul.network-icon .big-icon {
   font-size: 0.8rem;
 }
 
-/* ── RESEARCH / PUBLICATION CARDS ───────────────────────────── */
-.card-simple {
-  background: var(--white);
-  border: 0.5px solid var(--rule);
-  border-left: 3px solid var(--navy);
-  border-radius: var(--card-radius);
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  padding: 1.1rem 1.25rem;
-  box-shadow: none;
+/* ── SOCIAL ICONS ───────────────────────────────────────────── */
+#profile .network-icon {
+  margin-top: 0.75rem;
+}
+
+ul.network-icon .big-icon {
+  font-size: 1.35rem;
+}
+
+/* ── RESEARCH CARDS (.card is the correct selector) ─────────── */
+/* Remove the default shadow and rounded style */
+.card {
+  box-shadow: none !important;
+  border: 0.5px solid var(--rule) !important;
+  border-left: 3px solid var(--navy) !important;
+  border-radius: 4px !important;
   transition: border-left-color 0.2s ease;
+  background: var(--white);
 }
 
-.card-simple:hover {
-  border-left-color: var(--crimson);
+.card:hover {
+  box-shadow: none !important;
+  border-left-color: var(--crimson) !important;
 }
 
-.dark .card-simple {
+.dark .card {
   background: rgb(28, 36, 52);
-  border-color: rgba(255, 255, 255, 0.08);
-  border-left-color: #4a6fa8;
+  border-color: rgba(255, 255, 255, 0.08) !important;
+  border-left-color: #4a6fa8 !important;
 }
 
-.dark .card-simple:hover {
-  border-left-color: #e06b60;
+.dark .card:hover {
+  border-left-color: #e06b60 !important;
 }
 
 /* Paper title in serif */
-.card-simple .card-title,
-.card-simple h3,
-.card-simple .article-title {
+.card .card-title,
+.card h3.article-title,
+.card .card-text h3 {
   font-family: var(--serif);
-  font-size: 1.05rem;
+  font-size: 1.1rem;
   font-weight: 500;
   color: var(--navy);
   line-height: 1.35;
-  margin-bottom: 0.35rem;
 }
 
-.dark .card-simple .card-title,
-.dark .card-simple h3,
-.dark .card-simple .article-title {
+.dark .card .card-title,
+.dark .card h3.article-title {
   color: #c0d2ee;
 }
 
-/* Co-author / meta line */
-.card-simple .article-metadata,
-.card-simple .card-text small {
-  font-size: 0.82rem;
-  color: var(--muted);
-}
-
-/* ── JUSTIFIED BODY TEXT ────────────────────────────────────── */
-.justify-text p,
-.article-style p {
-  text-align: justify;
-  text-justify: inter-word;
-}
-
 /* ── PROJECT CARDS ──────────────────────────────────────────── */
-.project-card,
-.article-style .project-summary,
-.article-style .project-card {
+.project-card {
   max-width: 400px;
   width: 100%;
 }
@@ -295,123 +209,45 @@ ul.network-icon .big-icon {
   gap: 2rem;
 }
 
-/* ── TYPOGRAPHY POLISH ──────────────────────────────────────── */
-/* Body paragraphs */
-p {
-  margin-bottom: 0.9em;
+/* ── SECTION HEADINGS ───────────────────────────────────────── */
+/* Target wowchemy section heading */
+.section-heading h1,
+.section-heading h2 {
+  font-family: var(--serif);
+  font-weight: 500;
+  color: var(--navy);
+  padding-bottom: 0.5rem;
+  border-bottom: 1.5px solid var(--navy);
+}
+
+.dark .section-heading h1,
+.dark .section-heading h2 {
+  color: #a8bde4;
+  border-bottom-color: #a8bde4;
+}
+
+/* ── TEXT ───────────────────────────────────────────────────── */
+.justify-text p,
+.article-style p {
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 /* Links */
 a {
   color: var(--navy);
-  transition: color 0.15s ease;
 }
 
 a:hover {
   color: var(--crimson);
-  text-decoration: none;
 }
 
-.dark a {
-  color: #93b3de;
+/* ── DARK MODE SURFACE ──────────────────────────────────────── */
+.article-container {
+  background-color: var(--white);
+  border-radius: 6px;
 }
 
-.dark a:hover {
-  color: #e06b60;
-}
-
-/* ── AWARDS STYLING ─────────────────────────────────────────── */
-/* Applied to ul.awards or .award-list in content */
-.award-list,
-ul.awards {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.award-list li,
-ul.awards li {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  padding: 0.6rem 0;
-  border-bottom: 0.5px solid var(--rule);
-  font-size: 0.92rem;
-}
-
-.award-list li:last-child,
-ul.awards li:last-child {
-  border-bottom: none;
-}
-
-/* ── REFERENCES SECTION ─────────────────────────────────────── */
-.refs-grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 1rem;
-  margin-top: 0.75rem;
-}
-
-@media (max-width: 640px) {
-  .refs-grid { grid-template-columns: 1fr; }
-}
-
-.ref-card {
-  padding: 1rem 1.1rem;
-  background: var(--white);
-  border: 0.5px solid var(--rule);
-  border-radius: var(--card-radius);
-}
-
-.dark .ref-card {
-  background: rgb(28, 36, 52);
-  border-color: rgba(255, 255, 255, 0.08);
-}
-
-.ref-name {
-  font-family: var(--serif);
-  font-size: 1rem;
-  font-weight: 500;
-  color: var(--navy);
-  margin-bottom: 0.2rem;
-}
-
-.dark .ref-name { color: #c0d2ee; }
-
-.ref-title {
-  font-size: 0.8rem;
-  color: var(--muted);
-  line-height: 1.4;
-  margin-bottom: 0.4rem;
-}
-
-.ref-email {
-  font-size: 0.8rem;
-  color: var(--crimson);
-  text-decoration: none;
-}
-
-.dark .ref-email { color: #e06b60; }
-
-/* ── DARK MODE OVERRIDES ─────────────────────────────────────── */
-.dark {
-  --navy:     #a8bde4;
-  --crimson:  #e06b60;
-  --ink:      #d0d5e3;
-  --muted:    #7a8ba8;
-  --rule:     #2e3552;
-  --surface:  #131926;
-  --white:    #1c2438;
-}
-
-/* ── RESPONSIVE ─────────────────────────────────────────────── */
-@media (max-width: 768px) {
-  .home-section > .content {
-    width: 100%;
-    max-width: calc(100% - 2rem);
-  }
-
-  #profile .portrait-title h2 {
-    font-size: 1.5rem;
-  }
+.dark .article-container {
+  background-color: rgb(28, 36, 52);
 }
