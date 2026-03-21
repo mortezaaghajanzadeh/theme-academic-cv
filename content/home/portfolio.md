@@ -25,22 +25,22 @@ content:
   # To show all items, set `tag` to "*".
   # To filter by a specific tag, set `tag` to an existing tag name.
   # To remove the toolbar, delete the entire `filter_button` block.
-  filter_button:
-    - name: All
-      tag: '*'
-    - name: Entrepreneurship
-      tag: Entrepreneurship
-    - name: Venture Capital
-      tag: VC
-    - name: Network
-      tag: Network
-    - name: Climate Economics
-      tag: Climate
+  # filter_button:
+  #   - name: All
+  #     tag: '*'
+  #   - name: Entrepreneurship
+  #     tag: Entrepreneurship
+  #   - name: Venture Capital
+  #     tag: VC
+  #   - name: Network
+  #     tag: Network
+  #   - name: Climate Economics
+  #     tag: Climate
 
 design:
   columns: '2'
   rows: 1
-  view: masonry
+  view: card
   flip_alt_rows: false
   background: {}
   spacing: {padding: [0, 0, 1rem, 0]}
