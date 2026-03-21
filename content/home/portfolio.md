@@ -10,8 +10,8 @@ headless: true
 # Order that this section appears on the page.
 weight: 20
 
-title: ''
-subtitle: 'Research'
+title: 'Research'
+subtitle: 'Working Papers and ongoing projects'
 
 content:
   # Page type to display. E.g. project.
@@ -36,10 +36,10 @@ content:
       tag: Climate
 
 design:
-  columns: '1'
+  columns: '2'
   rows: 1
-  view: masonry
-  flip_alt_rows: true
+  view: card
+  flip_alt_rows: false
   background: {}
-  spacing: {padding: [0, 0, 0, 0]}
+  spacing: {padding: [0, 0, 1rem, 0]}
 ---

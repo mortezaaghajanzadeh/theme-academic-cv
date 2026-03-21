@@ -26,8 +26,10 @@ show_location: true
 #  css_class: fullscreen
 ---
 
-Welcome to my academic homepage!
-My Webpage is under construction.
+I am a PhD Candidate in Finance at the Stockholm School of Economics.  
+
+My research focuses on entrepreneurship, innovation, and finance. I am particularly interested in Venture Capital and Private Equity, and how they affect the growth of firms. I combine theoretical modeling and empirical analysis to understand how financial relationships influence market structure and the allocation of innovative activity.
+
+{{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download CV{{< /staticref >}}
 
 
-Check out my [CV](/about/) and research below
