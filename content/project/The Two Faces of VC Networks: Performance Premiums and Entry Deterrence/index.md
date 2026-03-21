@@ -2,7 +2,7 @@
 title: "The Two Faces of VC Networks: Performance Premiums and Entry Deterrence"
 authors:
   - "Morteza Aghajanzadeh"
-date: 2024-09-29
+date: 2025-12-29
 weights:
   - 1
 tags: ["Venture Capital", "Network", "Entrepreneurship"]
