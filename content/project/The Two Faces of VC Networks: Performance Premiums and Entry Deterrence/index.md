@@ -1,5 +1,6 @@
 ---
 title: "The Two Faces of VC Networks: Performance Premiums and Entry Deterrence"
+<span class="badge-jmp">Job Market Paper</span>
 authors:
   - "Morteza Aghajanzadeh"
 date: 2025-12-29

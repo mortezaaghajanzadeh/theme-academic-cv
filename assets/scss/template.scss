@@ -254,10 +254,24 @@ ul.network-icon .big-icon {
   width: 100%;
 }
 
-.project-card img {
+.project-card img,
+.card-simple img,
+.article-style .project-card img {
   width: 100%;
-  height: 240px;
-  object-fit: cover;
+  height: auto;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
+  object-position: center;
+  display: block;
+  background: #f8fafc;
+  border-radius: 8px 8px 0 0;
+}
+
+.project-card .card-image,
+.card-simple .card-image,
+.card-simple .article-banner {
+  padding: 0;
+  overflow: hidden;
   border-radius: 8px 8px 0 0;
 }
 
@@ -445,4 +459,16 @@ ul.awards li:last-child {
   #profile .portrait-title h2 {
     font-size: 1.5rem;
   }
+}
+
+.badge-jmp {
+  display: inline-block;
+  background-color: #b22222; // deep red
+  color: white;
+  font-size: 0.7rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
 }
