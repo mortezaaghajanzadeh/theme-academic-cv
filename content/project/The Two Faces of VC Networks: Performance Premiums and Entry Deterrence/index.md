@@ -1,7 +1,7 @@
 ---
 title: "The Two Faces of VC Networks: Performance Premiums and Entry Deterrence"
 
-<span class="badge-jmp">Job Market Paper</span>
+
 
 authors:
   - "Morteza Aghajanzadeh"
@@ -17,7 +17,7 @@ image:
 design:
   columns: "1"
   css_class: "justify-text"
-summary: >
+summary: ><span class="badge-jmp">Job Market Paper</span>
   This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy,
   using a model that captures the interactions between green and brown capital, productivity, and emissions.
   The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015.
