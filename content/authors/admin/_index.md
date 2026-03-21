@@ -31,7 +31,10 @@ location: Stockholm, Sweden
 email: morteza.aghajanzadeh@hhs.se
 
 
-# education:
+Research:
+  Workig Papers:
+    - title: "Venture Capital Networks and Market Dynamics: A Theoretical and Empirical Analysis"
+      link: https://scholar.google.com
 #  courses:
 #  - course: PhD in Artificial Intelligence
 #    institution: Stockholm School of Economics
