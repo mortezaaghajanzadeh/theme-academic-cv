@@ -40,7 +40,7 @@ content:
 design:
   columns: '2'
   rows: 1
-  view: masonry
+  view: card
   flip_alt_rows: false
   background: {}
   spacing: {padding: [0, 0, 1rem, 0]}
