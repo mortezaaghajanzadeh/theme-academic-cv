@@ -30,7 +30,9 @@ content:
       tag: '*'
     - name: Entrepreneurship
       tag: Entrepreneurship
-    - name: Network Structure
+    - name: Venture Capital
+      tag: VC
+    - name: Network
       tag: Network
     - name: Climate Economics
       tag: Climate

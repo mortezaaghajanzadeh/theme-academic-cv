@@ -3,7 +3,8 @@ title: "The Two Faces of VC Networks: Performance Premiums and Entry Deterrence"
 authors:
   - "Morteza Aghajanzadeh"
 date: 2024-09-29
-tags: ["Climate", "Reallocation", "Carbon Policy"]
+tags: ["Venture Capital", "Network", "Entrepreneurship"]
+categories: ["Research"]
 image:
   filename: featured.png
   caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
