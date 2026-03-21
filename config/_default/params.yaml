@@ -92,7 +92,7 @@ features:
   map:
     provider: ''
     api_key: ''
-    zoom: 10
+    zoom: 15
 
 extensions:
   cms:
