@@ -1,73 +1,108 @@
-// Starter Blog Template
-// https://hugoblox.com/hugo-themes/
-
+/* =========================
+   Global theme
+========================= */
 body {
-  background-color: rgb(247, 250, 252);
+  background: linear-gradient(180deg, rgb(248, 250, 252) 0%, rgb(241, 245, 249) 100%);
+  color: rgb(30, 41, 59);
 }
 
+.dark body {
+  background: linear-gradient(180deg, rgb(15, 23, 42) 0%, rgb(17, 24, 39) 100%);
+  color: rgba(255, 255, 255, 0.92);
+}
+
+/* =========================
+   Main content containers
+========================= */
 .article-container {
-  background-color: #fff;
-  border-radius: 15px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  padding: 1.5rem;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.06);
+  border: 1px solid rgba(15, 23, 42, 0.04);
 }
 
 .dark .article-container {
-  background-color: rgb(31, 39, 51);
+  background-color: rgb(30, 41, 59);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.22);
 }
 
-// custom footer color
+/* =========================
+   Footer
+========================= */
 .page-footer {
-  background-color: rgb(247, 250, 252);
+  background-color: transparent;
 }
 
 .dark .page-footer {
-  background-color: rgb(26, 32, 44);
+  background-color: transparent;
 }
 
-// more rounded cards and larger gap between cards
+/* Optional: fully hide footer */
+.site-footer,
+.dark .site-footer {
+  display: none;
+}
+
+/* =========================
+   Cards
+========================= */
 .card-simple {
-  margin-top: 1.8rem;
-  border-radius: 15px;
+  margin-top: 2rem;
+  border-radius: 20px;
+  border: 1px solid rgba(15, 23, 42, 0.06);
+  box-shadow: 0 8px 24px rgba(15, 23, 42, 0.05);
+  transition: transform 0.25s ease, box-shadow 0.25s ease;
+  overflow: hidden;
+  background: #ffffff;
+}
+
+.card-simple:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(15, 23, 42, 0.1);
 }
 
 .dark .card-simple {
   background: rgb(31, 39, 51);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
 }
 
-// no navbar shadow
+.dark .card-simple:hover {
+  box-shadow: 0 16px 36px rgba(0, 0, 0, 0.32);
+}
+
+/* =========================
+   Navbar
+========================= */
 .navbar {
-  box-shadow: none !important; // 'important' to override dark mode box-shadow too.
+  box-shadow: none !important;
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(15, 23, 42, 0.05);
 }
 
-// custom section padding
+.dark .navbar {
+  background: rgba(15, 23, 42, 0.72);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+/* =========================
+   Sections
+========================= */
 .home-section {
-  padding: 1rem 0;
+  padding: 3rem 0;
 }
 
 .home-section.wg-about-avatar {
-  padding: 0;
-}
-
-#profile .network-icon {
-  margin-top: 0.5rem;
-}
-
-ul.network-icon .big-icon {
-  font-size: 1.5rem;
-}
-
-.dark .portrait-title h3 {
-  color: rgba(255, 255, 255, 0.9);
-  font-weight: bold;
-}
-
-.dark .portrait-title h2 {
-  color: #fff;
-  font-weight: bold;
+  padding: 1rem 0 2rem;
 }
 
 .home-section > .content {
-  width: 45em;
-  max-width: calc(100% - 4em);
+  width: 48em;
+  max-width: calc(100% - 2.5em);
   margin: 0 auto;
 }
 
@@ -76,73 +111,177 @@ ul.network-icon .big-icon {
 }
 
 .home-section header {
-  margin-bottom: 1em;
+  margin-bottom: 1.5rem;
 }
 
-// Narrower container for Hello World sections (primarily Blank widget content).
-@media (min-width: 1200px) {
-  .home-section .container {
-    max-width: 880px;
-  }
+.home-section header h1,
+.home-section header h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
 }
+
+/* Narrower content width for large screens */
 @media (min-width: 992px) {
   .home-section .container {
-    max-width: 880px;
+    max-width: 940px;
   }
 }
 
-// Custom avatar size on homepage
+@media (min-width: 1200px) {
+  .home-section .container {
+    max-width: 940px;
+  }
+}
+
+/* =========================
+   Profile / About
+========================= */
 .avatar {
   width: auto;
   height: auto;
-  max-width: 225px;
-  max-height: 225px;
+  max-width: 240px;
+  max-height: 240px;
+  border-radius: 50%;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.12);
 }
 
-// Prevent stretching on About page with narrow container
 .wg-about .avatar {
   width: auto;
   height: auto;
-  max-width: 200px;
-  max-height: 200px;
+  max-width: 210px;
+  max-height: 210px;
 }
 
-// Smaller Name and Role text on About page than in homepage `about.avatar` widget
+#profile .network-icon {
+  margin-top: 0.75rem;
+}
+
+ul.network-icon .big-icon {
+  font-size: 1.55rem;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+ul.network-icon .big-icon:hover {
+  transform: translateY(-2px);
+  opacity: 0.85;
+}
+
+.portrait-title h2 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+}
+
+.portrait-title h3 {
+  opacity: 0.8;
+  font-weight: 500;
+}
+
+.dark .portrait-title h3 {
+  color: rgba(255, 255, 255, 0.88);
+  font-weight: 600;
+}
+
+.dark .portrait-title h2 {
+  color: #ffffff;
+  font-weight: 700;
+}
+
 .wg-about .portrait-title h2 {
-  font-size: 1rem;
+  font-size: 1.05rem;
 }
 
 .wg-about .portrait-title h3 {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
 }
 
+/* =========================
+   Typography
+========================= */
 .justify-text p {
   text-align: justify;
   text-justify: inter-word;
+  line-height: 1.8;
 }
 
-/* Enlarge the project preview card */
+p,
+li {
+  line-height: 1.75;
+}
+
+/* =========================
+   Project cards
+========================= */
 .project-card,
 .article-style .project-summary,
 .article-style .project-card {
-  max-width: 400px;    /* increase from default (usually ~280px) */
+  max-width: 420px;
   width: 100%;
+  border-radius: 18px;
+  overflow: hidden;
 }
 
-/* Make the image inside the card larger and more responsive */
 .project-card img {
-  height: auto;
-  max-height: 300px;   /* adjust this depending on your taste */
+  height: 240px;
+  width: 100%;
   object-fit: cover;
+  display: block;
+  transition: transform 0.35s ease;
 }
 
-/* Optional: add spacing between cards */
+.project-card:hover img {
+  transform: scale(1.03);
+}
+
 .projects-container {
   gap: 2rem;
 }
-.site-footer {
-  display: none;
+
+/* =========================
+   Buttons and links
+========================= */
+a {
+  transition: color 0.2s ease, opacity 0.2s ease;
 }
-.dark .site-footer {
-  display: none;
+
+a:hover {
+  opacity: 0.85;
+  text-decoration: none;
+}
+
+.btn,
+button {
+  border-radius: 999px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn:hover,
+button:hover {
+  transform: translateY(-1px);
+}
+
+/* =========================
+   Small screen improvements
+========================= */
+@media (max-width: 768px) {
+  .home-section {
+    padding: 2rem 0;
+  }
+
+  .home-section > .content {
+    max-width: calc(100% - 1.5em);
+  }
+
+  .article-container {
+    border-radius: 16px;
+    padding: 1.1rem;
+  }
+
+  .avatar {
+    max-width: 180px;
+    max-height: 180px;
+  }
+
+  .project-card img {
+    height: 200px;
+  }
 }
