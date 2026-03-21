@@ -17,7 +17,7 @@ image:
 design:
   columns: "1"
   css_class: "justify-text"
-summary: ><span class="badge-jmp">Job Market Paper</span>
+summary: >
   This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy,
   using a model that captures the interactions between green and brown capital, productivity, and emissions.
   The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015.
