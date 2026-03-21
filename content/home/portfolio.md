@@ -38,7 +38,7 @@ content:
   #     tag: Climate
 
 design:
-  columns: '2'
+  columns: '1'
   rows: 1
   view: card
   flip_alt_rows: false
