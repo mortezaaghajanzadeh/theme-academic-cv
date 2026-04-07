@@ -337,8 +337,11 @@ ul.network-icon .big-icon {
 
 .project-card img {
   height: auto;
-  max-height: 280px;
-  object-fit: cover;
+  max-height: 320px;
+  object-fit: contain;
+  object-position: center;
+  background: #f8fafc;
+  padding: 0.5rem;
 }
 
 .projects-container {
