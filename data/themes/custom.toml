@@ -1,25 +1,25 @@
-# Essentially Minimal theme but with constant home section bg color.
+# Deep Navy + Gold theme
 name = "Starter Blog"
 
 [light]
   # Primary
-  primary = "#2962ff"
+  primary = "#1a2e5a"
 
   # Menu
-  menu_primary = "rgb(247, 250, 252)"
-  menu_text = "#34495e"
-  menu_text_active = "#2962ff"
-  menu_title = "#2b2b2b"
+  menu_primary = "rgb(248, 248, 250)"
+  menu_text = "#2c3e50"
+  menu_text_active = "#1a2e5a"
+  menu_title = "#1a2e5a"
 
   # Home sections
-  home_section_odd = "rgb(247, 250, 252)"
-  home_section_even = "rgb(247, 250, 252)"
+  home_section_odd = "rgb(248, 248, 250)"
+  home_section_even = "rgb(248, 248, 250)"
 
 [dark]
-  primary = "#bbdefb"
-  link = "#bbdefb"
-  link_hover = "#bbdefb"
-  background = "rgb(26, 32, 44)"
-  home_section_odd = "rgb(26, 32, 44)"
-  home_section_even = "rgb(26, 32, 44)"
-  menu_primary = "rgb(26, 32, 44)"
+  primary = "#c9a84c"
+  link = "#c9a84c"
+  link_hover = "#e8c96a"
+  background = "rgb(18, 24, 38)"
+  home_section_odd = "rgb(18, 24, 38)"
+  home_section_even = "rgb(18, 24, 38)"
+  menu_primary = "rgb(18, 24, 38)"
