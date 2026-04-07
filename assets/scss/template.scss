@@ -256,15 +256,16 @@ ul.network-icon .big-icon {
 
 .project-card img,
 .card-simple img,
-.article-style .project-card img {
-  width: calc(100% - 1rem);
+.article-style .project-card img,
+.card-img-top {
+  width: 100%;
   height: auto;
   object-fit: contain;
   object-position: center;
   display: block;
   background: #f8fafc;
   border-radius: 8px 8px 0 0;
-  padding: 0.75rem 0.5rem 0.5rem;
+  padding: 0.75rem;
   box-sizing: border-box;
 }
 .dark .card-simple {
