@@ -9,10 +9,10 @@ headless: true
 
 # Order that this section will appear in.
 weight: 10
-
+title: Morteza Aghajanzadeh
 author: admin
 # Display interests and social links
-show_interests: true
+show_interests: false
 show_social: true
 show_bio: true
 show_email: true
