@@ -13,7 +13,7 @@ categories: ["Research"]
 image:
   filename: featured.png
   caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
-  placement: 4
+  placement: 1
 design:
   columns: "1"
   css_class: "justify-text"
