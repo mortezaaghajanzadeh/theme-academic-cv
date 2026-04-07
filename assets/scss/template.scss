@@ -267,18 +267,27 @@ ul.network-icon .big-icon {
 }
 
 .card-img-top {
-  display: block;
-  width: 100%;
-  height: auto;
-  object-fit: contain;
-  object-position: center;
+  display: block !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: none !important;
+  object-fit: contain !important;
+  object-position: center !important;
   background: #f8fafc;
-  padding: 1rem 1rem 0.5rem;
+  padding: 0.75rem;
   box-sizing: border-box;
 }
 
 .card {
-  overflow: visible !important;
+  overflow: hidden !important;
+}
+
+.card .card-image,
+.card > a:first-child {
+  display: block;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
 }
 .dark .card-simple {
   background: rgb(28, 36, 52);
