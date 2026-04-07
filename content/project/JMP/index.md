@@ -18,17 +18,17 @@ design:
   columns: "1"
   css_class: "justify-text"
 summary: >
-  This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy,
-  using a model that captures the interactions between green and brown capital, productivity, and emissions.
-  The model is estimated using data from the Swedish manufacturing sector between 1990 and 2015.
-awards: >
-  - "Best Paper Award, Nordic Conference on Environmental Economics 2024"
-presentations: >
-  - "Stockholm School of Economics Research Seminar, 2024"
-  - "EEA-ESEM Annual Meeting, 2024"
+  This paper develops a dynamic model of venture capital networks to study how financial intermediation shapes startup performance and market entry. It highlights three key mechanisms: assortative matching, value-added support, and entry deterrence through coordinated behavior—showing how networks can both improve efficiency and restrict competition. The model provides testable predictions on matching, funding, and market concentration, and serves as a foundation for future structural estimation.
+# awards: >
+#   - "Best Paper Award, Nordic Conference on Environmental Economics 2024"
+# presentations: >
+#   - "Stockholm School of Economics Research Seminar, 2024"
+#   - "EEA-ESEM Annual Meeting, 2024"
 ---
 ## Abstract
-This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy.
+This paper presents a dynamic model of venture capital (VC) networks to study how financial intermediation affects startup performance and market entry. The model combines a one-to-many matching model with a repeated game on a fixed syndication network. It highlights three main mechanisms: assortative matching, in which well-connected VCs back higher-quality startups; value-added, in which network connections improve exit outcomes; and entry deterrence, in which repeated syndication allows VCs to coordinate and limit funding to startups that compete with those already in their portfolios. The first two mechanisms help the market, while the third reduces competition, creating a balance between efficiency and competition. The model also explains when collusion can be sustained through network-based punishments and makes clear predictions about matching, funding, and market concentration. This work lays the groundwork for future structural estimation.
+
+<!-- This paper examines the effects of carbon policies on capital reallocation and emission reductions in the economy.
 It uses a model that captures the interactions between green and brown capital, productivity, and emissions.
 
 ## Key Findings
@@ -39,7 +39,7 @@ It uses a model that captures the interactions between green and brown capital, 
 
 ## Policy Implications
 The emission tax is the most effective policy instrument. Achieving equivalent reductions through green capital subsidies
-would require unrealistic interest rate discounts and would reduce total output significantly.
+would require unrealistic interest rate discounts and would reduce total output significantly. -->
 
 
 <!-- # external_link: http://github.com -->
