@@ -268,12 +268,17 @@ ul.network-icon .big-icon {
 
 .card-img-top {
   display: block;
-  width: calc(100% - 1.5rem);
+  width: 100%;
   height: auto;
-  margin: 0.75rem auto 0;
   object-fit: contain;
   object-position: center;
   background: #f8fafc;
+  padding: 1rem 1rem 0.5rem;
+  box-sizing: border-box;
+}
+
+.card {
+  overflow: visible !important;
 }
 .dark .card-simple {
   background: rgb(28, 36, 52);
