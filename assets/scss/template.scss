@@ -461,8 +461,14 @@ ul.awards li:last-child {
 }
 
 .wg-about .ul-interests,
-.wg-about div[class*="interest"] {
+.wg-about div[class*="interest"],
+.wg-about .col-md-5 {
   display: none !important;
+}
+
+.wg-about .article-style p {
+  font-size: 1.15rem;
+  line-height: 1.8;
 }
 
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
