@@ -471,6 +471,14 @@ ul.awards li:last-child {
   line-height: 1.8;
 }
 
+.wg-about .article-style a {
+  color: #2563eb !important;
+}
+
+.wg-about .article-style a:hover {
+  color: #1d4ed8 !important;
+}
+
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .home-section > .content {
