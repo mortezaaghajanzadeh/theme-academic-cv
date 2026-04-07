@@ -289,10 +289,8 @@ ul.network-icon .big-icon {
   transition: none !important;
 }
 
-.card,
-.card > a {
+.card {
   overflow: visible !important;
-  height: auto !important;
 }
 .dark .card-simple {
   background: rgb(28, 36, 52);
