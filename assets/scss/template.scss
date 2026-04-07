@@ -257,13 +257,15 @@ ul.network-icon .big-icon {
 .project-card img,
 .card-simple img,
 .article-style .project-card img {
-  width: 100%;
+  width: calc(100% - 1rem);
   height: auto;
   object-fit: contain;
   object-position: center;
   display: block;
   background: #f8fafc;
   border-radius: 8px 8px 0 0;
+  padding: 0.75rem 0.5rem 0.5rem;
+  box-sizing: border-box;
 }
 .dark .card-simple {
   background: rgb(28, 36, 52);
