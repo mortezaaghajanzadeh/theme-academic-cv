@@ -454,6 +454,17 @@ ul.awards li:last-child {
   --white:    #1c2438;
 }
 
+/* ── ABOUT WIDGET: hide profile details below avatar & interests */
+.wg-about #profile .portrait-title,
+.wg-about #profile .network-icon {
+  display: none !important;
+}
+
+.wg-about .ul-interests,
+.wg-about div[class*="interest"] {
+  display: none !important;
+}
+
 /* ── RESPONSIVE ─────────────────────────────────────────────── */
 @media (max-width: 768px) {
   .home-section > .content {
