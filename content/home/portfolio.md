@@ -39,7 +39,7 @@ content:
 
 design:
   columns: '1fr 1fr'
-  rows: 2
+  rows: 1
   view: card
   flip_alt_rows: false
   background: {}
