@@ -279,7 +279,14 @@ ul.network-icon .big-icon {
 }
 
 .img-hover-zoom {
+  width: 100% !important;
+  aspect-ratio: 1.87 / 1 !important;
+  height: auto !important;
   overflow: hidden !important;
+  background-size: contain !important;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-color: #f8fafc !important;
 }
 
 .img-hover-zoom img {
