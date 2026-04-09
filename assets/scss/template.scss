@@ -283,8 +283,8 @@ ul.network-icon .big-icon {
   aspect-ratio: 1.87 / 1 !important;
   height: auto !important;
   overflow: hidden !important;
-  background-size: contain !important;
-  background-position: center center !important;
+  background-size: 100% auto !important;
+  background-position: left top !important;
   background-repeat: no-repeat !important;
   background-color: #f8fafc !important;
 }
@@ -342,6 +342,15 @@ ul.network-icon .big-icon {
 .article-style p {
   text-align: justify;
   text-justify: inter-word;
+}
+
+/* ── PORTFOLIO CARD: hide author & date metadata ────────────── */
+.wg-portfolio .card .article-metadata,
+.wg-portfolio .card .card-text.article-metadata,
+.wg-portfolio .card [class*="author"],
+.wg-portfolio .card [class*="date"],
+.isotope-item .article-metadata {
+  display: none !important;
 }
 
 /* ── PROJECT CARDS ──────────────────────────────────────────── */
