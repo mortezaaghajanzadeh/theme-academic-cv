@@ -6,6 +6,8 @@ date: 2024-09-29
 weights:
   - 2
 tags: ["Climate", "Reallocation", "Carbon Policy"]
+sitemap:
+  priority: 0.9
 categories: ["Research"]
 image:
   filename: featured.png

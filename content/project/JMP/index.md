@@ -9,6 +9,8 @@ date: 2025-12-29
 weights:
   - 1
 tags: ["Venture Capital", "Network", "Entrepreneurship"]
+sitemap:
+  priority: 0.9
 categories: ["Research"]
 image:
   filename: featured.png

@@ -10,6 +10,6 @@ main:
   - name: Research
     url: project/
     weight: 20
-  # - name: CV
-  #   url: about/
-  #   weight: 30
+  - name: CV
+    url: uploads/Aghajanzadeh-CV.pdf
+    weight: 30

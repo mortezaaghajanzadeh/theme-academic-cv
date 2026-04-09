@@ -18,7 +18,7 @@ marketing:
     site_type: Person
     local_business_type: ''
     org_name: ''
-    description: ''
+    description: 'PhD Candidate in Finance at Stockholm School of Economics. Research on venture capital networks, entrepreneurship, innovation, and carbon policy. Working papers available.'
     twitter: ''
   analytics:
     google_analytics: ''
@@ -99,4 +99,4 @@ extensions:
     branch: main
     local_backend: false
   academicons:
-    enable: false
+    enable: true

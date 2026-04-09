@@ -59,10 +59,10 @@ social:
     link: https://github.com/mortezaaghajanzadeh
   - icon: linkedin
     icon_pack: fab
-    url: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh
+    link: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh
   - icon: google-scholar
-    icon_pack: fab
-    url: https://scholar.google.com
+    icon_pack: ai
+    link: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
 design:
   columns: "1"
   css_class: "justify-text"   

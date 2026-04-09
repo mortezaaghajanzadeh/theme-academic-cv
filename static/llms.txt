@@ -1,0 +1,44 @@
+# Morteza Aghajanzadeh — Academic Website
+
+> PhD Candidate in Finance at Stockholm School of Economics.
+> Research: venture capital networks, entrepreneurship, innovation, carbon policy.
+
+## About
+
+Morteza Aghajanzadeh is a PhD candidate in the Department of Finance at the
+Stockholm School of Economics. His research examines how venture capital networks
+shape startup performance and market entry, and how carbon policies affect capital
+reallocation. He combines theoretical modeling with empirical analysis.
+
+Email: morteza.aghajanzadeh@hhs.se
+Location: Stockholm, Sweden
+Institution: Stockholm School of Economics, Department of Finance
+
+## Research Areas
+
+- Venture Capital, Entrepreneurship, and Innovation
+- Network Structure and Market Competition
+- Strategic Investment and Entry Dynamics
+- Carbon Policy and Capital Reallocation
+
+## Working Papers
+
+- [The Two Faces of VC Networks: Performance Premiums and Entry Deterrence](https://mortezaaghajanzadeh.com/project/jmp/)
+  This paper develops a dynamic model of venture capital networks to study how
+  financial intermediation shapes startup performance and market entry. It highlights
+  three key mechanisms: assortative matching, value-added support, and entry deterrence
+  through coordinated behavior — showing how networks can both improve efficiency and
+  restrict competition.
+
+- [Reallocation Cost of Carbon Policies](https://mortezaaghajanzadeh.com/project/reallocation-cost-of-carbon-policies/)
+  This paper examines the effects of carbon policies on capital reallocation and
+  emission reductions in the economy, using a model that captures interactions between
+  green and brown capital, productivity, and emissions. Estimated using data from the
+  Swedish manufacturing sector (1990–2015). Key finding: emission tax reduces emissions
+  by 54%; achieving a 75% reduction by 2040 requires a 270% tax rate increase.
+
+## Links
+
+- Website: https://mortezaaghajanzadeh.com
+- GitHub: https://github.com/mortezaaghajanzadeh
+- CV: https://mortezaaghajanzadeh.com/uploads/Aghajanzadeh-CV.pdf
