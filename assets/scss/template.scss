@@ -419,12 +419,14 @@ ul.network-icon a:hover {
   order: 2 !important;
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: 2 / 1 !important;
+  aspect-ratio: 16 / 9 !important;
   flex-shrink: 0 !important;
-  background-size: 100% 100% !important;
-  background-position: left top !important;
+  background-size: contain !important;
+  background-position: center center !important;
   background-repeat: no-repeat !important;
-  background-color: var(--paper) !important;
+  background-origin: content-box !important;
+  background-color: var(--white) !important;
+  padding: 0.85rem !important;
   border-top: none !important;
   border-bottom: 1px solid var(--rule) !important;
 }
