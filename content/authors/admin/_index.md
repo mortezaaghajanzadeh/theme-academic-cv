@@ -6,7 +6,7 @@ title: Morteza Aghajanzadeh
 superuser: true
 
 # Role/position
-role: 'PhD Candidate'
+role: 'PhD Candidate in Finance'
 
 # Status emoji
 # status:
@@ -14,37 +14,21 @@ role: 'PhD Candidate'
 
 # Organizations/Affiliations
 organizations:
-  - name: Stockholm School of Economics
+  - name: Swedish House of Finance, Stockholm School of Economics
     url: https://www.hhs.se/en/Research/Departments/DF/
 
 # Short bio (displayed in user profile at end of posts)
-bio: I am a Ph.D. candidate in Finance at Stockholm School of Economics, and my research examines how venture capital networks influence innovation, market entry, and competitive dynamics through both theoretical modeling and empirical analysis.
+bio: PhD candidate in Finance at the Swedish House of Finance, Stockholm School of Economics. My research studies how venture capital networks shape innovation, market entry, and competition, combining theoretical modeling with structural and empirical analysis.
 
 interests:
   - Venture Capital, Entrepreneurship, and Innovation
-  - Network Structure and Market Competition
-  - Strategic Investment and Entry Dynamics
+  - Industrial Organization and Market Competition
+  - Corporate Finance
 
 # Location
 location: Stockholm, Sweden
 # Email
 email: morteza.aghajanzadeh@hhs.se
-
-
-Research:
-  Workig Papers:
-    - title: "Venture Capital Networks and Market Dynamics: A Theoretical and Empirical Analysis"
-      link: https://scholar.google.com
-#  courses:
-#  - course: PhD in Artificial Intelligence
-#    institution: Stockholm School of Economics
-#    year: 2022-Now
-#  - course: Msc in Economics
-#    institution: Tehran Instituted for Advanced Studies
-#    year: 2019-2021
-#  - course:  BSc in Civil Engineering
-#    institution: University of Tehran
-#    year: 2014-2018
 
 # Social/Academic Networking
 # For available icons, see: https://docs.hugoblox.com/getting-started/page-builder/#icons
@@ -53,30 +37,27 @@ Research:
 social:
   - icon: envelope
     icon_pack: fas
-    link: 'mailto:morteza.aghajanzadeh@hhs.se' 
-  - icon: github
-    icon_pack: fab
-    link: https://github.com/mortezaaghajanzadeh
+    link: 'mailto:morteza.aghajanzadeh@hhs.se'
+  # To enable Google Scholar: replace YOUR_SCHOLAR_ID with your real Scholar
+  # profile ID, then uncomment the three lines below.
+  # - icon: google-scholar
+  #   icon_pack: ai
+  #   link: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
   - icon: linkedin
     icon_pack: fab
     link: https://www.linkedin.com/in/seyyed-morteza-aghajanzadeh
-  - icon: google-scholar
+  - icon: github
+    icon_pack: fab
+    link: https://github.com/mortezaaghajanzadeh
+  - icon: cv
     icon_pack: ai
-    link: https://scholar.google.com/citations?user=YOUR_SCHOLAR_ID
+    link: uploads/Aghajanzadeh-CV.pdf
+
 design:
   columns: "1"
-  css_class: "justify-text"   
-
-# Link to a PDF of your resume/CV from the About widget.
-# To enable, copy your resume/CV to `static/files/cv.pdf` and uncomment the lines below.
-# - icon: cv
-#   icon_pack: ai
-#   link: files/Aghajanzadeh-CV.pdf
-
-# Enter email to display Gravatar (if Gravatar enabled in Config)
-#email: ""
+  css_class: "justify-text"
 ---
 
-I am a Ph.D. candidate in the Department of Finance at Stockholm School of Economics, where my research focuses on entrepreneurship and finance. I study how venture capital activities shape innovation and market dynamics, combining theoretical modeling with empirical analysis. In particular, my work examines how the structure of venture capital networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
+I am a Ph.D. candidate in the Department of Finance at the Swedish House of Finance, Stockholm School of Economics. My research studies how venture capital networks shape innovation, market entry, and competition, combining theoretical modeling with structural and empirical analysis. In particular, my work examines how the structure of venture capital syndication networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
 
-{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download{{< /staticref >}} my resumé as a PDF.
+{{< icon name="download" pack="fas" >}} {{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download my CV{{< /staticref >}} (PDF).

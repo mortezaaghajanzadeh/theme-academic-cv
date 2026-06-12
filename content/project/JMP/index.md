@@ -14,8 +14,9 @@ sitemap:
 categories: ["Research"]
 image:
   filename: featured.png
-  caption: "Trends in capital reallocation and emissions in Swedish manufacturing, 1990–2015"
+  caption: "A venture capital syndication network"
   placement: 1
+url_slides: slides.pdf
 design:
   columns: "1"
   css_class: "justify-text"

@@ -5,23 +5,23 @@
    ============================================================ */
 
 /* ── GOOGLE FONTS ──────────────────────────────────────────── */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;1,9..40,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,300;0,8..60,400;0,8..60,500;0,8..60,600;1,8..60,400&family=Source+Sans+3:ital,wght@0,300;0,400;0,500;0,600;1,400&display=swap');
 
 /* ── DESIGN TOKENS ──────────────────────────────────────────── */
 :root {
-  --nordic:       #1c3557;
+  --nordic:       #1a2e5a;
   --nordic-deep:  #0f2138;
-  --gold:         #b8922a;
-  --gold-light:   #d4a843;
-  --ink:          #2d3040;
-  --muted:        #6e7589;
-  --rule:         #e3dfd6;
-  --surface:      #f3f0e9;
-  --paper:        #f7f5f0;
+  --gold:         #7d2233;
+  --gold-light:   #9e3346;
+  --ink:          #1d2330;
+  --muted:        #6b7280;
+  --rule:         #e6e3dc;
+  --surface:      #ffffff;
+  --paper:        #f7f6f2;
   --white:        #ffffff;
   --card-radius:  0px;
-  --serif:        'Cormorant Garamond', 'Palatino Linotype', Georgia, serif;
-  --sans:         'DM Sans', system-ui, -apple-system, sans-serif;
+  --serif:        'Source Serif 4', 'Palatino Linotype', Georgia, serif;
+  --sans:         'Source Sans 3', system-ui, -apple-system, sans-serif;
 }
 
 /* ── BASE ───────────────────────────────────────────────────── */
@@ -33,7 +33,7 @@ body {
   font-family: var(--sans);
   background-color: var(--surface);
   color: var(--ink);
-  font-size: 14px;
+  font-size: 15px;
   line-height: 1.75;
 }
 
@@ -68,7 +68,7 @@ body {
 .navbar {
   box-shadow: none !important;
   border-bottom: 1px solid var(--rule);
-  background: rgba(243, 240, 233, 0.96) !important;
+  background: rgba(255, 255, 255, 0.93) !important;
   backdrop-filter: blur(10px);
   -webkit-backdrop-filter: blur(10px);
 }
@@ -621,8 +621,8 @@ ul.awards li:last-child {
 .dark {
   --nordic:       #8ab4da;
   --nordic-deep:  #040c1a;
-  --gold:         #c9a84c;
-  --gold-light:   #e0be6a;
+  --gold:         #d98a98;
+  --gold-light:   #e8a6b2;
   --ink:          #ccd4e8;
   --muted:        #7a8ba8;
   --rule:         #1a2a40;
@@ -677,4 +677,23 @@ ul.awards li:last-child {
   padding: 0.22rem 0.55rem;
   border-radius: 0;
   margin-bottom: 0.5rem;
+}
+
+/* ── "JOB MARKET PAPER" LABEL on the lead research card ─────────
+   The portfolio renders projects newest-first, so the JMP (dated
+   2025-12-29) is the first card. This injects a label above its title. */
+.wg-portfolio .isotope-item:first-child .article-title::before,
+.wg-portfolio .card:first-child .article-title::before {
+  content: 'Job Market Paper';
+  display: block;
+  width: fit-content;
+  background-color: var(--gold);
+  color: var(--white);
+  font-family: var(--sans);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  padding: 0.2rem 0.5rem;
+  margin-bottom: 0.55rem;
 }
