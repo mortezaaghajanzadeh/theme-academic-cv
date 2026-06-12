@@ -419,19 +419,42 @@ ul.network-icon a:hover {
   order: 2 !important;
   width: 100% !important;
   height: auto !important;
-  aspect-ratio: 16 / 9 !important;
+  aspect-ratio: auto !important;
+  overflow: visible !important;
   flex-shrink: 0 !important;
-  background-size: contain !important;
-  background-position: center center !important;
-  background-repeat: no-repeat !important;
-  background-origin: content-box !important;
-  background-color: var(--white) !important;
-  padding: 0.85rem !important;
+  background: var(--white) !important;
   border-top: none !important;
-  border-bottom: 1px solid var(--rule) !important;
+  border-bottom: none !important;
 }
 
 .dark .wg-portfolio .card .img-hover-zoom {
+  background-color: #0e1c30 !important;
+  border-bottom-color: rgba(255,255,255,0.06) !important;
+}
+
+/* 2b ── Actual <img> element inside the card.
+   This theme renders the featured image as a real <img>, so the
+   background rules above don't control it. Force the full figure to
+   show (contain, never crop) on a white panel. */
+.wg-portfolio .card .img-hover-zoom img,
+.wg-portfolio .card img.img-hover-zoom,
+.wg-portfolio .card .article-header img,
+.wg-portfolio .card img,
+.isotope-item .card img {
+  order: 2 !important;
+  width: 100% !important;
+  height: auto !important;
+  max-height: 320px !important;
+  aspect-ratio: auto !important;
+  object-fit: contain !important;
+  object-position: center !important;
+  background-color: var(--white) !important;
+  padding: 0.85rem !important;
+  border-bottom: 1px solid var(--rule) !important;
+}
+
+.dark .wg-portfolio .card img,
+.dark .isotope-item .card img {
   background-color: #0e1c30 !important;
   border-bottom-color: rgba(255,255,255,0.06) !important;
 }
