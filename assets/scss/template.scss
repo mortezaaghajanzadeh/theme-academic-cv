@@ -161,10 +161,10 @@ footer.site-footer {
   padding-bottom: 1.5rem;
 }
 
-/* Constrain section width for readability */
+/* Wide layout — use most of the page width */
 .home-section > .content {
-  width: 52em;
-  max-width: calc(100% - 4em);
+  width: 100%;
+  max-width: 1280px;
   margin: 0 auto;
 }
 
@@ -177,10 +177,10 @@ footer.site-footer {
 }
 
 @media (min-width: 1200px) {
-  .home-section .container { max-width: 900px; }
+  .home-section .container { max-width: 1280px; }
 }
 @media (min-width: 992px) {
-  .home-section .container { max-width: 900px; }
+  .home-section .container { max-width: 1140px; }
 }
 
 /* ── SECTION HEADINGS ───────────────────────────────────────── */
@@ -265,10 +265,10 @@ footer.site-footer {
 
 /* Avatar — square with offset outline, distinguished */
 .avatar {
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 240px;
-  max-height: 240px;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 0;
   border: none;
   outline: 1.5px solid var(--rule);
@@ -283,8 +283,8 @@ footer.site-footer {
 }
 
 .wg-about .avatar {
-  max-width: 210px;
-  max-height: 210px;
+  max-width: 300px;
+  max-height: 300px;
 }
 
 .wg-about-avatar .avatar-wrapper {
@@ -324,8 +324,8 @@ ul.network-icon a:hover {
 #profile .article-style {
   font-size: 1.05rem;
   line-height: 1.85;
-  max-width: 750px;
-  margin: 0 auto;
+  max-width: none;
+  margin: 0;
 }
 
 /* Drop cap on bio opening */
