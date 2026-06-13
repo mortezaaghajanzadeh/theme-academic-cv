@@ -58,6 +58,10 @@ design:
   css_class: "justify-text"
 ---
 
-I am a Ph.D. candidate in the Department of Finance at the Swedish House of Finance, Stockholm School of Economics. My research studies how venture capital networks shape innovation, market entry, and competition, combining theoretical modeling with structural and empirical analysis. In particular, my work examines how the structure of venture capital syndication networks and investment decisions influences entry, competition, and the allocation of innovative activity across markets.
+Welcome! I am a Ph.D. candidate in Finance at the Stockholm School of Economics.
+
+My research focuses on the relation between financial markets and innovation and entrepreneurship. I am particularly interested in venture capital and private equity, and how they change entrepreneurial activities. I combine theoretical modeling with structural and empirical analysis to understand how financial relationships influence market structure and the allocation of innovative activity.
+
+My advisors are Alexander Ljungqvist (Stockholm School of Economics) and Per Strömberg (Stockholm School of Economics).
 
 {{< icon name="download" pack="fas" >}} {{< staticref "uploads/Aghajanzadeh-CV.pdf" "newtab" >}}Download my CV{{< /staticref >}} (PDF).
