@@ -1,7 +1,6 @@
-# IDEs
-.idea/
+# Local archive of the old Hugo site — kept on your machine, not pushed/published
+legacy-hugo/
 
-# Hugo
-resources/
-public/
-assets/jsconfig.json
+# OS / editor cruft
+.DS_Store
+.idea/
