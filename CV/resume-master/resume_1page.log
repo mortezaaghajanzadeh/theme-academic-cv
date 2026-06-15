@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  15 JUN 2026 10:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2022/dev/Debian) (preloaded format=pdflatex 2026.6.9)  15 JUN 2026 10:17
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -321,7 +321,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 Here is how much of TeX's memory you used:
  8826 strings out of 480247
  138073 string characters out of 5896152
- 443060 words of memory out of 5000000
+ 444060 words of memory out of 5000000
  26698 multiletter control sequences out of 15000+600000
  473267 words of font info for 41 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
@@ -333,7 +333,7 @@ type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
 ublic/amsfonts/cm/cmr7.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
 /cm/cmti10.pfb>
-Output written on resume_1page.pdf (1 page, 93241 bytes).
+Output written on resume_1page.pdf (1 page, 94665 bytes).
 PDF statistics:
  64 PDF objects out of 1000 (max. 8388607)
  48 compressed objects within 1 object stream

@@ -114,7 +114,7 @@ h2.sec::after{content:'';display:block;width:2.25rem;height:2px;background:var(-
 }
 .card:hover{border-left-color:var(--burgundy);transform:translateY(-2px);}
 .card.jmp{border-left-color:var(--burgundy);}
-.card .fig{width:100%;aspect-ratio:16/9;object-fit:contain;background:#fff;padding:.7rem;border-bottom:1px solid var(--rule);}
+.card .fig{display:block;width:100%;height:auto;background:#fff;padding:.7rem;border-bottom:1px solid var(--rule);}
 .card .body{padding:1.1rem 1.25rem 1.25rem;display:flex;flex-direction:column;flex:1;}
 .badge{
   display:inline-block;width:fit-content;background:var(--burgundy);color:#fff;
