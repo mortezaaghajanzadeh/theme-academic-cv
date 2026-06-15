@@ -61,7 +61,7 @@ a:hover{color:var(--burgundy);border-bottom-color:var(--burgundy);}
 .hero{display:flex;gap:3rem;align-items:flex-start;padding:3.6rem 0 2.4rem;}
 .portrait{flex-shrink:0;}
 .portrait img{
-  width:330px;height:330px;object-fit:cover;border-radius:2px;
+  width:400px;height:400px;object-fit:cover;border-radius:2px;
   outline:1px solid var(--rule);outline-offset:8px;
 }
 .hero-body{padding-top:.5rem;}
@@ -96,6 +96,8 @@ h2.sec{
 h2.sec::after{content:'';display:block;width:2.25rem;height:2px;background:var(--burgundy);margin:.6rem 0 1.5rem;}
 .bio{font-size:1.07rem;line-height:1.8;max-width:52em;}
 .bio p{margin:0 0 1rem;}
+.bio a{color:var(--burgundy);border-bottom-color:rgba(125,34,51,.25);}
+.bio a:hover{color:var(--navy);border-bottom-color:var(--navy);}
 .interests{display:flex;flex-wrap:wrap;gap:.5rem;margin-top:1.3rem;}
 .tag{
   font-size:.85rem;color:var(--navy);background:var(--tint-navy);
